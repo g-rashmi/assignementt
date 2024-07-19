@@ -11,8 +11,8 @@ function App() {
     <Router>
       <div>
         <Routes>
-        <Route path="/" element={<Navbarr/>}></Route>
-          <Route path="/signup" element={<Signup />} />
+        
+          <Route path="/" element={<Signup />} />
           <Route path="/signin" element={<Signin />} />
           <Route path="/order" element={<Order/>}></Route>
         </Routes>

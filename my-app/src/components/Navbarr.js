@@ -9,7 +9,7 @@ function Navbarr() {
   <div className="container-fluid">
     <p className="navbar-brand" >Foodie</p>
     <form className="d-flex" role="search">
-   <div className="d-flex gap-3"> <button className="btn btn-primary" onClick={()=>{navigate("/signup")}}>Signup</button>
+   <div className="d-flex gap-3"> <button className="btn btn-primary" onClick={()=>{navigate("/")}}>Signup</button>
    <button className="btn btn-secondary" onClick={()=>{navigate("/signin")}} style={{marginRight:"15px"}}>Sigin</button>
    
    </div>

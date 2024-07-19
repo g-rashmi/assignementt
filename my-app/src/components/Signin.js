@@ -126,7 +126,7 @@ function Signin() {
             </form>
           </div>
           <div className="card-footer text-center">
-            <p className="mb-0">Don't have an account? <Link to="/signup">Sign Up</Link></p>
+            <p className="mb-0">Don't have an account? <Link to="/">Sign Up</Link></p>
           </div>
         </div>
       </div>
